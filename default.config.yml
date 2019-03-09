@@ -56,7 +56,11 @@ homebrew_cask_apps:
 #  - virtualbox
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 1091189122, name: "Bear" }
+  - { id: 568494494, name: "Pocket" }
+  - { id: 402592703, name: "Time Out" }
+  - { id: 1278508951, name: "Trello" }
 mas_email: ""
 mas_password: ""
 

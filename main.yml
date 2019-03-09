@@ -11,6 +11,16 @@
         - "{{ playbook_dir }}/config.yml"
       tags: ['always']
 
+  vars_prompt:
+    - name: mas_email
+      prompt: "Mac App Store Email"
+      private: no
+      when: mas_installed_apps and (mas_email is undefined || mas_email == '')
+    - name: mas_password
+      prompt: "Mac App Store Password"
+      private: yes
+      when: mas_installed_apps and (mas_password is undefined || mas_password == '')
+
   roles:
     - role: geerlingguy.homebrew
       tags: ['homebrew']
