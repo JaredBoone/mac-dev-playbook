@@ -1,10 +1,10 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: yes
-configure_sudoers: yes
-configure_terminal: yes
-configure_osx: yes
+configure_dotfiles: no
+configure_sudoers: no
+configure_terminal: no
+configure_osx: no
 
 dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
@@ -18,31 +18,15 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
+  - dockutil
   - git
-  - go
   - gpg
-  - hub
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
-  - nmap
   - node
   - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
   - openssl
-  - pv
   - wget
-  - wrk
+  - zsh
+  - zsh-completions
 
 homebrew_taps:
   - homebrew/core
@@ -50,21 +34,26 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - appcleaner
+  - ccleaner
+  - cheatsheet
   - docker
-  - dropbox
   - firefox
+  - github
   - google-chrome
-  - handbrake
-  - licecap
-  - limechat
-  - macvim
-  - sequel-pro
-  - skitch
+  - inboxer
+  - iterm2
+  - macpass
+  - muzzle
   - slack
+  - skype
   - sublime-text
-  - transmit
+  - visual-studio-code
   - vagrant
+  - unlox
+  - postman
+  - malwarebytes
+#  - virtualbox
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
