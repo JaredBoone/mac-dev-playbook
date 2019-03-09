@@ -1,5 +1,4 @@
 ---
 - name: geerlingguy.dotfiles
 - name: geerlingguy.homebrew
-- name: jaredboone.mas
-  src: https://github.com/jaredboone/ansible-role-mas.git
+- name: geerlingguy.mas
