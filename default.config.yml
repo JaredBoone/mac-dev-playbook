@@ -1,20 +1,23 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: no
+configure_dotfiles: yes
 configure_sudoers: no
 configure_terminal: no
 configure_osx: no
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/jaredboone/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/dotfiles
 dotfiles_files:
   - .bash_profile
+  - .gitconfig
   - .gitignore
-  - .inputrc
+  - .zshrc
   - .osx
-  - .vimrc
+  - .iterm
+  - .terminal
+  - .zsh
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
