@@ -64,7 +64,7 @@ mas_installed_apps:
   - { id: 568494494, name: "Pocket" }
   - { id: 402592703, name: "Time Out" }
   - { id: 1278508951, name: "Trello" }
-mas_email: ""
+mas_email: "jared.boone@gmail.com"
 mas_password: ""
 
 osx_script: "~/.osx --no-restart"
