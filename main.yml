@@ -24,9 +24,6 @@
   tasks:
     - include_tasks: tasks/ansible-setup.yml
 
-    - include_tasks: tasks/sudoers.yml
-      when: configure_sudoers
-
     - include_tasks: tasks/terminal.yml
       when: configure_terminal
 
