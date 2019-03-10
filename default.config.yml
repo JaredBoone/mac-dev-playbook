@@ -4,6 +4,7 @@ downloads: ~/.ansible-downloads/
 configure_dotfiles: yes
 configure_sudoers: no
 configure_terminal: no
+configure_zsh: yes
 configure_osx: yes
 
 dotfiles_repo: https://github.com/jaredboone/dotfiles.git

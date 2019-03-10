@@ -27,6 +27,10 @@
     - include_tasks: tasks/terminal.yml
       when: configure_terminal
 
+    - include_tasks: tasks/zsh.yml
+      when: configure_zsh
+      tags: ['zsh']
+
     - include_tasks: tasks/osx.yml
       when: configure_osx
       tags: ['osx']
