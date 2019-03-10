@@ -27,7 +27,7 @@ homebrew_installed_packages:
   - gpg
   - node
   - nvm
-  - openssl
+  - python
   - wget
   - zsh
   - zsh-completions
@@ -37,6 +37,7 @@ homebrew_installed_packages:
 #   - dockutil
 #   - git
 #   - node
+#   - python
 #   - nvm
 #   - zsh
 #   - zsh-completions
