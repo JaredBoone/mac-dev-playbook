@@ -56,7 +56,6 @@ homebrew_cask_apps:
   - unlox
   - postman
   - malwarebytes
-  - zsh
 #  - virtualbox
 #  - virtualbox-extension-pack 
 # See `geerlingguy.mas` role documentation for usage instructions.
