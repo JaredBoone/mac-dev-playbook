@@ -1,8 +1,8 @@
 ---
 - name: Ensure zsh is the user shell.
-  shell: dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
+  shell: sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
   changed_when: false
 
 - name: Ensure zsh is the default shell.
-  shell: chsh -s /usr/local/bin/zsh $USER
+  shell: sudo chsh -s /usr/local/bin/zsh $USER
   changed_when: false
