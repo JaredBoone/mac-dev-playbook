@@ -6,14 +6,14 @@ This playbook installs and configures most of the software I use on my Mac. It's
 
 > Note: If ansible is installed, run `brew uninstall ansible; pip uninstall ansible`. If python3 is installed run `pip uninstall pip; brew uninstall python`
 
-xcode-select --install
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py
-pip install ansible
-git clone https://github.com/JaredBoone/mac-playbook
-cd mac-playbook
-ansible-galaxy install -r requirements.yml
-ansible-playbook main.yml -i inventory -K
+  1. xcode-select --install
+  2. curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  3. python get-pip.py
+  4. pip install ansible
+  5. git clone https://github.com/JaredBoone/mac-playbook
+  6. cd mac-playbook
+  7. ansible-galaxy install -r requirements.yml
+  8. ansible-playbook main.yml -i inventory -K
 
 ## Overriding Defaults
 
