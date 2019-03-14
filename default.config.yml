@@ -11,14 +11,15 @@ dotfiles_repo: https://github.com/jaredboone/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/dotfiles
 dotfiles_files:
+  - .fonts
+  - .iterm
+  - .terminal
+  - .zsh_custom
   - .bash_profile
   - .gitconfig
   - .gitignore
-  - .zshrc
   - .osx
-  - .iterm
-  - .terminal
-  - .zsh
+  - .zshrc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
